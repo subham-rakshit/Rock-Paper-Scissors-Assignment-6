@@ -37,12 +37,11 @@ export const PopupContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 40vw;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
   padding: 10px;
-  @media screen and (max-width: 576px) {
-    height: 260px;
-    width: 100%;
-  }
+  //   border: 1px solid red;
 `
 export const CloseButton = styled.button`
   background-color: #def7ff;

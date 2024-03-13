@@ -6,6 +6,8 @@ import {RiCloseLine} from 'react-icons/ri'
 import ScoreView from '../ScoreView'
 import GameResultView from '../GameResultView'
 
+import './index.css'
+
 import {
   MainContainer,
   ButtonContainer,
@@ -118,7 +120,11 @@ class Home extends Component {
 
         {/* Rules Button ---> */}
         <ButtonContainer>
-          <Popup modal trigger={<RulesButton type="button">RULES</RulesButton>}>
+          <Popup
+            modal
+            trigger={<RulesButton type="button">RULES</RulesButton>}
+            className="popup-content"
+          >
             {close => (
               <PopupContainer>
                 <CloseButton

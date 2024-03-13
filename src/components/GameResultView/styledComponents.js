@@ -21,6 +21,7 @@ export const GameButton = styled.button`
   background-color: transparent;
   border: none;
   outline: none;
+  cursor: pointer;
   @media screen and (max-width: 576px) {
     width: 100px;
     height: 100px;
