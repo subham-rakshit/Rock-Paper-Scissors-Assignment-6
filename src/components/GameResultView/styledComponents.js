@@ -10,7 +10,7 @@ export const GameViewContainer = styled.div`
   flex-wrap: wrap;
   margin-top: 60px;
   @media screen and (max-width: 576px) {
-    width: 250px;
+    width: 90%;
     height: 250px;
     margin-left: 15px;
   }
@@ -41,8 +41,9 @@ export const ResultImageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-right: 40px;
+  //   border: 1px solid red;
   @media screen and (max-width: 576px) {
-    width: 30%;
+    width: 32%;
   }
 `
 export const ResultName = styled.p`
@@ -69,9 +70,8 @@ export const PlayAgainButton = styled.button`
   border-radius: 8px;
   cursor: pointer;
   padding: 10px 10px;
-  width: 150px;
+  width: 100%;
   @media screen and (max-width: 767px) {
-    width: 120px;
     font-size: 12px;
   }
 `
